@@ -26,7 +26,7 @@ return { -- Highlight, edit, and navigate code
 			-- vim.wo.foldmethod = 'expr'
 
 			-- enables treesitter based indentation
-			vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+			--			vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
 		end
 
 		local available_parsers = require("nvim-treesitter").get_available()
